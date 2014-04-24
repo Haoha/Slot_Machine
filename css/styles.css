@@ -1,0 +1,284 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+/*===========================================================*/
+
+.start
+{
+	text-align: center;
+	width: 185px;
+	display: inline-block;
+	background-color: #2E2E2E;
+	border-radius: 10px;
+	margin: 25px 25px;
+	color: #C9C9C9;
+	cursor:n-resize;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;	 
+}
+
+h2
+{
+	margin-top: 5px;
+	text-align: center;
+}
+
+#centerbox
+{
+	width: 1000px;
+	margin: auto;
+}
+
+/*=====================/// Machines à sous ///====================*/
+
+/*===============// Zone d'affichage des resultats //==============*/
+
+#resultbox
+{
+	width: 390px;
+	border: solid 2px #000000;
+	float: left;
+	margin-right: 50px;
+	margin-top: 35px;
+	padding: 10px;
+}
+
+.result_box
+{
+	width: 370px;
+	height: 21px;
+	border-bottom: solid 1px #000000;
+}
+
+#details_resultats
+{
+	max-height: 345px;
+	overflow: auto;	
+}
+
+#titre_zone_nb_parties
+{
+	margin-left: 65px;
+	border-bottom: 1px solid #000000;
+}
+
+#compteur_parties
+{
+	padding: 10px;
+	width: 95%;
+}
+
+.float_nom
+{
+	width: 49%;
+	float: left;
+	text-align: center;
+	border-right: solid 1px #677179;
+}
+
+.count
+{
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+
+.p_list
+{
+	margin-top: 5px;
+}
+
+.r_div
+{
+	width: 75px;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+}
+
+#r1
+{
+	background-color: #F0E36B;
+}
+
+#r2
+{
+	background-color: #A9EAFE;
+}
+
+#r3
+{
+	background-color: #BEF574;	
+}
+
+.remove
+{
+	width: 10px;
+	height: 100%;
+	margin-left: 30px;
+	float: left;
+}
+/*===============// Zone d'affichage de la machine //==============*/
+
+#machine
+{
+	float: left;
+}
+
+h1	
+{
+	text-align: center;
+	margin: auto;
+	margin-top: 35px;
+	font-size: 30px;
+	width: 400px;
+	font-weight: bold;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #8EA2C6;
+}
+
+#joueur
+{
+	width: 235px;
+}
+
+#div_joueur
+{
+	width: 240px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#roulotte
+{
+	margin: auto;
+	width: 375px;
+	margin-top: 15px;
+}
+
+.roue
+{
+	height: 100px;
+	width: 100px;
+	background-color: #FFFFFF;
+	background-image:url('../img/bandit.jpg');
+	display: inline-block;
+	margin: 5px;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	border: solid 2px #000000;
+}
+
+.playdiv
+{
+	margin-top: 25px;
+}
+
+.play
+{
+	width: 25%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-right: 5%;
+	display: inline-block;
+	border-radius: 15px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: arial;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#start
+{
+	margin-left: 5%;
+	background-color: #65D30E;
+}
+
+#stop
+{
+	background-color: #FE0000;
+}
+
+#reset
+{
+	background-color: #0000FF;
+}
+
+#played
+{
+	margin-top: 35px;
+	margin-left: 10px;
+	background-color: #FFFF00;
+	width: 90%;
+}
+
+.result_box_player
+{
+	float: left;
+	width: 75px;
+	text-align: center;
+}
+
+
+/*=====================/// Paniers de Fruits ///====================*/
+
+#center
+{
+	width: 255px;
+	margin: auto;
+	border: 2px solid #004D80;
+	border-radius: 5px;
+}
+
+/*=====================/// Astrologie ///====================*/
+#sign_div
+{
+	width: 500px;
+	margin: auto;
+}
+
+.sign
+{
+	width: 200px;
+	color: #FFFFFF;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 0 25px;
+}
+
+#sign1
+{
+	background-color: #221A32;
+}
+
+#sign2
+{
+	background-color: #860806;
+}
